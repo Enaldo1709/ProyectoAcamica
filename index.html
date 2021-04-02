@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Dots</title>
     <link rel="stylesheet" href="/style/style.css">
+    <script src="https://kit.fontawesome.com/10a9c4b979.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <input type="checkbox" id="check-menu" class="check-menu">
     <header>
         <img src="/assets/logo.svg" alt="Logo bd">
+        <ul>
+            <li>EPISODIOS</li>
+            <li>NOSOTROS</li>
+            <li>ENTREVISTAS</li>
+            <li>TÓPICOS</li>
+        </ul>
         <div>
-            <input type="checkbox" class="check">
-            <img src="/assets/open-menu.svg" alt="menu">
+            <label for="check-menu">
+                <i class="fas fa-bars" id="menu-unactive"></i>
+                <i class="fas fa-times" id="menu-active"></i>
+            </label>
         </div>
+        <ul>
+            <li>EPISODIOS</li>
+            <li>NOSOTROS</li>
+            <li>ENTREVISTAS</li>
+            <li>TÓPICOS</li>
+        </ul>
     </header>
+    <div id="menu">
+        <ul>
+            <li>EPISODIOS</li>
+            <li>NOSOTROS</li>
+            <li>ENTREVISTAS</li>
+            <li>TÓPICOS</li>
+        </ul>
+    </div>
+    <main>
+        <h1>Hello <span id="through">world</span> pale blue dot<span id="blue-dot">.</span></h1>
+        
+    </main>
+    <footer>
+        <p>&copy; 2019- Hello blue pale dot</p>
+        <nav>
+            <ul>
+                <li><a href="https://www.spotify.com/co/" style='text-decoration:none;color:black;'><i class="fab fa-spotify"></i></a></li>
+                <li><a href="https://www.instagram.com/" style='text-decoration:none;color:black;'><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/?lang=es" style='text-decoration:none;color:black;'><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://es-la.facebook.com/" style='text-decoration:none;color:black;'><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://web.telegram.org/" style='text-decoration:none;color:black;'><i class="fab fa-telegram"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
