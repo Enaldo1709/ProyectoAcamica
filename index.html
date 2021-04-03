@@ -11,37 +11,34 @@
 <body>
     <input type="checkbox" id="check-menu" class="check-menu">
     <header>
-        <img src="/assets/logo.svg" alt="Logo bd">
-        <ul>
-            <li>EPISODIOS</li>
-            <li>NOSOTROS</li>
-            <li>ENTREVISTAS</li>
-            <li>TÓPICOS</li>
-        </ul>
+        <a href="#titulo"><img src="/assets/logo.svg" alt="Logo bd"></a>
+        <nav>
+            <ul>
+                <a href="#episodios"><li>EPISODIOS</li></a>
+                <a href="#nosotros"><li>NOSOTROS</li></a>
+                <a href="#entrevistas"><li>ENTREVISTAS</li></a>
+                <a href="#topicos"><li>TÓPICOS</li></a>
+            </ul>
+        </nav>
         <div>
             <label for="check-menu">
                 <i class="fas fa-bars" id="menu-unactive"></i>
                 <i class="fas fa-times" id="menu-active"></i>
             </label>
         </div>
-        <ul>
-            <li>EPISODIOS</li>
-            <li>NOSOTROS</li>
-            <li>ENTREVISTAS</li>
-            <li>TÓPICOS</li>
-        </ul>
     </header>
     <div id="menu">
         <ul>
-            <li>EPISODIOS</li>
-            <li>NOSOTROS</li>
-            <li>ENTREVISTAS</li>
-            <li>TÓPICOS</li>
+            <a href="#episodios"><li>EPISODIOS</li></a>
+            <a href="#nosotros"><li>NOSOTROS</li></a>
+            <a href="#entrevistas"><li>ENTREVISTAS</li></a>
+            <a href="#topicos"><li>TÓPICOS</li></a>
         </ul>
     </div>
     <main>
-        <h1>Hello <span id="through">world</span> pale blue dot<span id="blue-dot">.</span></h1>
-        
+        <h1 id="titulo">Hello <span>world</span> pale blue dot<span id="blue-dot">.</span></h1>
+        <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <button></button>
     </main>
     <footer>
         <p>&copy; 2019- Hello blue pale dot</p>
