@@ -1,0 +1,11 @@
+main{
+    object-fit: none;
+    div[id="phone"]{
+        position: relative;
+        width: 100%;
+        img{
+            width: 112.5%;
+            margin-left: -6.25%; margin-top: calc(48px - 143.5px);            
+        }
+    }
+}
