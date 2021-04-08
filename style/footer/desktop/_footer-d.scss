@@ -1,0 +1,21 @@
+@import '../../variables';
+@media (min-width:calc($tablet-w + 1px)){
+    footer{
+        padding: 16px 0;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 16px;
+            margin-left: 6.9%;
+        }
+        nav{
+            width: calc(314px + 18px - 100px);
+            margin-right: 6.9%;
+            ul{ 
+                img{
+                    width: 18px;
+                }
+            }
+        }
+    }
+}

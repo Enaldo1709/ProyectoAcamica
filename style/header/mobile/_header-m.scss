@@ -1,0 +1,43 @@
+@import '../../variables';
+@media (max-width:768px){
+    header{
+        height: 44px;
+        nav{
+            ul{
+                display: none;
+            }
+        }
+        a{
+            width: 7.5%; margin-left: 5%; max-width: 24px;
+            img{
+               width: 100%;
+            }
+        }
+        div{
+            display: flex; flex-flow: row wrap;
+            width: 7.5%; height: 7.5vw;
+            max-height: 24px; max-width: 24px;
+            margin-right: 5%; align-items: center;
+            #menu-unactive{
+                width: 100%;
+            }
+            #menu-active{
+                width: 100%;
+                display:none;
+            }
+        }
+    }
+    [type="checkbox"]:checked ~ header div label #menu-unactive{
+        display: none;
+    }
+    [type="checkbox"]:checked ~ header div label #menu-active{
+        display: block;
+    }
+    
+    [type="checkbox"]:checked ~ #menu{
+        display: block;
+    }
+    #menu ul a:active + #menu{
+        display: none;
+    }
+}

@@ -1,17 +1,12 @@
-*{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-}
-
-@import 'header';
-@import 'title';
-@import 'episodios';
-@import 'phone';
-@import 'nosotros';
-@import 'entrevistas';
-@import 'topicos';
-@import 'final';
-@import 'footer';
+@import 'normalizado';
+@import 'header/header.scss';
+@import 'title/title';
+// @import 'episodios/episodios';
+// @import 'nosotros/phone';
+// @import 'nosotros/nosotros';
+// @import 'entrevistas/entrevistas';
+// @import 'topicos/topicos';
+// @import 'final/final';
+@import 'footer/footer';
 
 

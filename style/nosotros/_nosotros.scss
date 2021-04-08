@@ -8,3 +8,15 @@ main{
         }
     }
 }
+@media (max-width:430px){
+    main{
+        section[id="nosotros"]{
+            h1{
+                font-size: 36px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}

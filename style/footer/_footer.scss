@@ -1,0 +1,22 @@
+@import '../variables';
+footer{
+    position: absolute; bottom: 0;
+    font-family: $secondary-font;
+    background-color: white;
+    padding-top: 24px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    p{
+        color: $primary-color;
+    }
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        justify-content: space-between;
+    }
+}
+
+@import 'mobile/footer-m';
+@import 'desktop/footer-d';

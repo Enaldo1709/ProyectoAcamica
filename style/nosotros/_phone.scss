@@ -1,0 +1,14 @@
+main{
+    div[id="phone"]{
+        position: relative;
+        width: 100%;
+        margin-top: calc(48px - 143.5px);
+        display: flex; flex-flow: row wrap;
+        justify-content: center;
+        img{
+            width: 112.5%;
+            overflow: hidden;
+            
+        }
+    }
+}

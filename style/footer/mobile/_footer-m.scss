@@ -1,0 +1,20 @@
+@import '../../variables';
+@media (max-width:$tablet-w){
+    footer{
+        flex-flow: column;
+        align-items: center;
+        p{
+            font-size: 14px;
+        }
+        nav{
+            width: 100%;
+            padding: 16px 45px;
+            max-width: $mobile-w;
+            ul{
+                img{
+                    width: 16px;
+                }
+            }
+        }
+    }
+}
