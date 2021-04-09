@@ -1,6 +1,5 @@
-@import '../variables';
 footer{
-    position: absolute; bottom: 0;
+    bottom: 0;
     font-family: $secondary-font;
     background-color: white;
     padding-top: 24px;
@@ -10,13 +9,13 @@ footer{
     p{
         color: $primary-color;
     }
-    ul{
-        display: flex;
-        flex-flow: row wrap;
-        list-style: none;
-        justify-content: space-between;
+    nav{
+        ul{
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-between;
+        }
     }
 }
 
-@import 'mobile/footer-m';
-@import 'desktop/footer-d';

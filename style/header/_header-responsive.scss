@@ -1,0 +1,83 @@
+//Estilos para el header en móviles y tablets
+@media (max-width:1024px){
+    header{
+        height: 44px;
+        nav{
+            ul{
+                display: none;
+            }
+        }
+        a{
+            width: 7.5%; margin-left: 5%; max-width: 24px;
+            img{
+               width: 100%;
+            }
+        }
+        div{
+            display: flex; flex-flow: row wrap;
+            width: 7.5%; height: 7.5vw;
+            max-height: 24px; max-width: 24px;
+            margin-right: 5%; align-items: center;
+            #menu-unactive{
+                width: 100%;
+            }
+            #menu-active{
+                width: 100%;
+                display:none;
+            }
+        }
+    }
+    [type="checkbox"]:checked ~ header div label #menu-unactive{
+        display: none;
+    }
+    [type="checkbox"]:checked ~ header div label #menu-active{
+        display: block;
+    }
+    
+    [type="checkbox"]:checked ~ #menu{
+        display: block;
+    }
+    #menu ul a:active + #menu{
+        display: none;
+    }
+}
+
+//Estilos para escritorio
+@media (min-width:1025px){
+    header{
+        height: 80px;
+        a[href="#titulo"]{
+            margin-left: 5%; width: 7.5%; 
+            max-width: 36px; max-height: 36px;
+            img{
+                width: 100%;
+            }
+        }
+        nav{
+            width: 40%; margin-right: 7%; max-width: 480px;
+            ul{
+                display: flex; flex-flow: row nowrap;
+                justify-content: space-between;
+                width: 100%; list-style: none;
+                a{
+                    font-family: $secondary-font; font-size: 16px;
+                    text-decoration: none; color: $primary-color;
+                }
+                a:hover{
+                    text-decoration: line-through;
+                    color:$third-color;
+                }
+                a:active{
+                    text-decoration: line-through;
+                    color:$primary-color 56%;
+                }
+            }
+        }
+        div{
+            display: none;        
+        }
+    }
+    #menu{
+        display: none;
+    }
+}

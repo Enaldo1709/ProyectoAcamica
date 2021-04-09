@@ -1,10 +1,9 @@
-@import "../variables";
 main{
     width: 100%;
     max-width: 1440px;
     position: relative;
     top: 44px;
-    h1 {
+    h1{
         font-family: $primary-font;
         margin-top: 120px;
         margin-left: 13.9%;
@@ -13,9 +12,8 @@ main{
         span{
             text-decoration: line-through;
         }
-        span:nth-child(2){
+        #blue-dot{
             text-decoration: none;
-            color:$secondary-color;
         }
     }
     p{
@@ -24,14 +22,12 @@ main{
     }
     button{
         background-color: $third-color;
-        height: 48px; border: 0px;
+        border: 0px;
         font-family: $secondary-font; font-size: 16px; font-weight: 600;
     }
+    button:hover{
+        color:white;
+        background-image: linear-gradient(225deg,$secondary-color 0%,$third-color 100%);
+        transform: scale(0.99);
+    }
 }
-
-@import 'mobile/title-m';
-@import 'tablet/title-t';
-@import 'desktop/title-d';
-
-
-
