@@ -15,6 +15,7 @@ main{
             button{
                 transform: skewy(6deg);
                 outline: none;
+                cursor:pointer;
             }
             button:hover{
                 color:white;
