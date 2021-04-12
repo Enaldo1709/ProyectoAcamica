@@ -17,10 +17,9 @@ main{
                 outline: none;
             }
             button:hover{
-                transform: skewy(6deg); 
                 color:white;
                 background-image: linear-gradient(225deg,$secondary-color 0%,$third-color 100%);
-                transform: scale(0.99);
+                transform: skewy(6deg) scale(0.99); outline: none;
             }
         }
     }
