@@ -1,0 +1,18 @@
+main{
+    section[id="topicos"]{
+        h2{
+            font-family: $primary-font; color: $primary-color;
+        }
+        div{
+            display: flex; 
+            article{
+                display: flex; flex-flow: column wrap;
+                h3{
+                    font-family: $primary-font;
+                    font-size: 24px; text-align: center; 
+                }
+            }
+        }
+        
+    }
+}

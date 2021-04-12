@@ -1,0 +1,35 @@
+@media(max-width:430px){
+    main{
+        #phone{
+            position: relative;
+            width: 100%;
+            margin-top: calc(48px - 143.5px);
+            display: flex; flex-flow: row wrap;
+            justify-content: center;
+            img{
+                width: 112.5%;
+                overflow: hidden;
+                
+            }
+        }
+    }
+}
+@media (min-width:430px){
+    main{
+        #phone{
+            position: relative;
+            margin-left: 13.9%; width: 31.8%; height: calc((1038 / 640) * 31.8vw);
+            max-width:calc((640 / 1038) * 660px); max-height: 660px;
+            margin-top: calc(48px - 10vw);
+            display: flex; flex-flow: row wrap; justify-content: center;
+            @media (max-width:900px){
+                margin-top: calc(24px - 10vw);
+                margin-left: 5%; width: 45%; height: calc((1038 / 640) * 45vw);
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

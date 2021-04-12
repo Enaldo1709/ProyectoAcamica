@@ -1,0 +1,27 @@
+main{
+    div[id="final"]{
+        padding-top: calc((0.05255 * 100vw));
+        overflow: hidden;
+        div[id="final-i"]{
+            background-image: linear-gradient(225deg, $fourth-color 0%, $fifth-color 100%);
+            transform: skewy(-6deg); width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            h2{
+                transform: skewy(6deg); 
+                text-align: center;
+                font-family: $primary-font; color: white;
+            }
+            button{
+                transform: skewy(6deg);
+                outline: none;
+                cursor:pointer;
+            }
+            button:hover{
+                color:white;
+                background-image: linear-gradient(225deg,$secondary-color 0%,$third-color 100%);
+                transform: skewy(6deg) scale(0.99); outline: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+//Se importan las variables de uso y el normalizado de la página
+@import 'variables';
+@import 'normalizado';
+
+//Se importan los estilos para el header
+@import 'header/header'; //Reglas básicas 
+@import 'header/header-responsive'; //Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para el título principal
+@import 'title/title'; //Reglas básicas 
+@import 'title/title-responsive'; //Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para la sección de episodios
+@import 'episodios/episodios'; //Reglas básicas 
+@import 'episodios/episodios-responsive'; //Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para la sección nosotros (De donde venimos)
+@import 'nosotros/phone'; //Reglas de posicionamiento de la imagen del telefono superpuesto
+@import 'nosotros/nosotros'; //Reglas básicas 
+@import 'nosotros/nosotros-responsive'; //Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para la sección nosotros (Invitadas/os estelares)
+@import 'entrevistas/entrevistas'; //Reglas básicas, Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para la sección tópicos (Algunos de nuestros temas)
+@import 'topicos/topicos'; //Reglas básicas 
+@import 'topicos/topicos-responsive'; //Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para el final de la página (seccion ¿Querés las últimas novedades?)
+@import 'final/final'; //Reglas básicas 
+@import 'final/final-responsive'; //Tamaño y posicionamiento para responsive web
+
+//Se importan los estilos para el footer (pie de la página)
+@import 'footer/footer'; //Reglas básicas 
+@import 'footer/footer-responsive'; //Tamaño y posicionamiento para responsive web

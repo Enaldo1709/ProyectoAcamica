@@ -1,0 +1,22 @@
+footer{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    p{
+        font-family: $secondary-font; color: $primary-color; 
+    }
+    nav{
+        ul{
+            display: flex;
+            flex-flow: row nowrap;
+            list-style: none;
+            justify-content: space-between;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
