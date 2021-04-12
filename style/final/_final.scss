@@ -1,21 +1,23 @@
 main{
     div[id="final"]{
-        background-image: linear-gradient(225deg, $fourth-color 0%, $fifth-color 100%);
-        transform: skewy(-6deg); width: 100%;position: relative; z-index: -1; 
-        div{
-            transform: skewy(6deg); 
-            padding-top: calc((64px + 32px) / 2);
-            padding-bottom: 113px;
-            h1{
-                width: 90%; margin: 0 5%;
+        padding-top: calc((0.05255 * 100vw));
+        overflow: hidden;
+        div[id="final-i"]{
+            background-image: linear-gradient(225deg, $fourth-color 0%, $fifth-color 100%);
+            transform: skewy(-6deg); width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            h2{
+                transform: skewy(6deg); 
                 text-align: center;
-                font-family: $primary-font; color: white; font-size: 36px; font-weight: lighter;
+                font-family: $primary-font; color: white;
             }
             button{
-                width: 90%; margin: 36px 5% 0 5%;
+                transform: skewy(6deg);
                 outline: none;
             }
             button:hover{
+                transform: skewy(6deg); 
                 color:white;
                 background-image: linear-gradient(225deg,$secondary-color 0%,$third-color 100%);
                 transform: scale(0.99);

@@ -8,21 +8,25 @@
         }
         p{
             font-size: 14px; margin-top: 16px; margin-left: 5%; width: 90%;
+            line-height: 22px;
         }
         button{
             width: 90%; margin: 36px 5% 24px 5%;
-            height: 48px;
-            outline: none;
+            height: 48px; outline: none;
         }
     }
 }
 
-//Estilos para Tablets
-@media(min-width:431px) and (max-width:1024px){
+//Estilos para Tablets y desktop
+@media(min-width:431px){
     main{
         h1{
-            margin-top: 60px; margin-left: calc((13.9% + 5%) / 2);
-            font-size: 44px;
+            margin-top: 200px; margin-left: calc((13.9% + 5%) / 2);
+            font-size: 64px;
+            @media (max-width:900px){
+                margin-top: 60px;
+                font-size: 44px;
+            }
             br{
                 display: none;
             }
@@ -32,7 +36,14 @@
         }
         p{
             margin-left: calc((13.9% + 5%) / 2);
-            font-size: 16px;
+            font-size: 16px; line-height: 24px;
+            text-align:justify;
+            width:53%;
+            max-width:628px;
+            @media (max-width:900px){
+                max-width: calc(0.45 * 900px);
+            }
+            
         }
         button{
             width:226px; height: 56px;
@@ -41,3 +52,4 @@
         }
     }
 }
+
